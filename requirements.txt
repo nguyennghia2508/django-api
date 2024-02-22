@@ -3,4 +3,4 @@ Django==4.2.10
 djangorestframework
 sqlparse==0.4.4
 tzdata==2022.7
-corsheaders
+django-cors-headers==4.3.1
