@@ -72,6 +72,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+
 CORS_ALLOWED_ORIGINS=[
     'https://shop-cart-vercel.vercel.app',
 ]
